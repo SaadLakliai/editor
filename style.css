@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    background: rgb(20, 20, 20);
+    overflow: hidden;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textarea {
+    width: 100%;
+    height: 32vh;
+    background: blue;
+    display: flex;
+}
+
+.textarea > textarea {
+    width: 33%;
+    height: 100%;
+    resize: none;
+    border: 1px solid black;
+    background: rgb(20, 20, 20);
+    color: white;
+    font-family: "Comic Sans Ms";
+    font-size: 1.5rem;
+}
+
+iframe {
+    width: 100%;
+    height: 66vh;
+    background: white;
+}
+
+.top {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+    outline: none;
+    background:rgb(20, 20, 20);
+    color: white;
+    font-family: "Comic Sans Ms";
+    font-size: 1rem
+}
+
+option {
+    font-family: "Comic Sans Ms";
+    font-size: 1rem
+}
